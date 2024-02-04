@@ -217,12 +217,12 @@ function AvatarContainer({ className, ...props }) {
 
 function Avatar({ large = false, className, ...props }) {
   return (
-    <Link
-      href="/"
-      aria-label="Home"
-      className={clsx(className, 'pointer-events-auto')}
-      {...props}
-    >
+    // <Link
+    //   href="/"
+    //   aria-label="Home"
+    //   className={clsx(className, 'pointer-events-auto')}
+    //   {...props}
+    // >
       <Image
         src={avatarImage}
         alt=""
@@ -233,7 +233,7 @@ function Avatar({ large = false, className, ...props }) {
         )}
         priority
       />
-    </Link>
+    // </Link>
   )
 }
 

@@ -7,6 +7,7 @@ import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logofacebook from '@/images/logos/facebook.svg'
 
 const projects = [
   {
@@ -31,6 +32,13 @@ const projects = [
     logo: logoHelioStream,
   },
   {
+    name: 'Cloud Computing MongoDB Project: Navigating the Cloud with MongoDB Compass and Atlas',
+    description:
+      'Embarking on a cloud computing journey, I orchestrated a MongoDB project using the dynamic duo of MongoDB Compass and MongoDB Atlas. This seamless integration allowed me to learn the database, query language a little bit more in the cloud.',
+    link: { href: '#', label: '' },
+    logo: logofacebook,
+  },
+  {
     name: 'Airbnb Clone - placely',
     description:
       'Crafted an immersive travel experience with Placely, where the world is just a click away. The frontend, developed using Vue.js and Tailwind CSS, offers a sleek and responsive user interface. For the backend, Adonis.js powers the robust infrastructure, while PostgreSQL handles the dynamic database. Explore, discover, and plan your next adventure with Placely!',
@@ -41,7 +49,7 @@ const projects = [
     name: 'spotify clone',
     description:
       'Crafting the Spotify Clone has been a transformative journey for me. This project served as a pivotal moment where the intricacies of frontend development truly crystallized. Designing and implementing the frontend not only honed my technical skills in HTML, CSS, and Vue.js but also deepened my understanding of creating immersive user experiences.',
-    link: { href: '#', label: 'github.com' },
+    link: { href: 'https://github.com/tejathalari/spotify-clone', label: 'github.com' },
     logo: logoOpenShuttle,
   },
 ]
@@ -72,7 +80,7 @@ export default function Projects() {
         role="list"
         className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
       >
-        {projects.map((project) => (
+        {projects.map((project, index) => (
           <Card as="li" key={project.name}>
             <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
               <Image
@@ -86,10 +94,12 @@ export default function Projects() {
               <Card.Link href={project.link.href}>{project.name}</Card.Link>
             </h2>
             <Card.Description>{project.description}</Card.Description>
-            <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
-              <LinkIcon className="h-6 w-6 flex-none" />
-              <span className="ml-2">{project.link.label}</span>
-            </p>
+            {index >= 4 ? (
+              <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
+                <LinkIcon className="h-6 w-6 flex-none" />
+                <span className="ml-2">{project.link.label}</span>
+              </p>
+            ) : null}
           </Card>
         ))}
       </ul>
