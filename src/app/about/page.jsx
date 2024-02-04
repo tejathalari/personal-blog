@@ -40,7 +40,7 @@ function MailIcon(props) {
 export const metadata = {
   title: 'About',
   description:
-    'Im Sai Teja Thalari.',
+    'Im Sai Teja Thalari. Computer Science Student.',
 }
 
 export default function About() {
