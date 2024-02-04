@@ -60,7 +60,7 @@ export default function Uses() {
           Navigating the intricate world of databases is seamless with TablePlus. This sleek tool simplifies my database management tasks, providing an intuitive interface and powerful features. From querying to visualization, TablePlus is the key to unlocking the potential of my data.
           </Tool>
           <Tool title="GitHub">
-          In the realm of version control, GitHub is my trusted ally. Its not just a platform; its the heartbeat of my code. From collaboration to version tracking, GitHub empowers me to weave a tapestry of innovation in every repository.
+          In the realm of version control, GitHub is my trusted ally Its not just a platform; its the heartbeat of my code. From collaboration to version tracking, GitHub empowers me to weave a tapestry of innovation in every repository.
           </Tool>
         </ToolsSection>
         {/* <ToolsSection title="Design">
