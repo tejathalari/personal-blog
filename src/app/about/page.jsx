@@ -39,7 +39,7 @@ function MailIcon(props) {
 export const metadata = {
   title: 'About',
   description:
-    'I’m Spencer Sharp. I live in New York City, where I design the future.',
+    'Im Spencer Sharp. I live in New York City, where I design the future.',
 }
 
 export default function About() {
@@ -58,7 +58,7 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
         <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-  I'm
+        I&lsquo;m
   <span className="text-red-500">  Sai Teja Thalari.</span>
   <br />Graduate Student at University of Texas at San Antonio.
 </h1>
