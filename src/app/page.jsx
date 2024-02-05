@@ -88,7 +88,7 @@ export default function About() {
             <SocialLink href="https://www.instagram.com/_sai._.teja/" icon={InstagramIcon} className="mt-4">
               Follow on Instagram
             </SocialLink>
-            <SocialLink href="www.linkedin.com/in/sai-teja-thalari-bb8263236" icon={LinkedInIcon} className="mt-4">
+            <SocialLink href="https://www.linkedin.com/in/sai-teja-thalari-bb8263236/" icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
