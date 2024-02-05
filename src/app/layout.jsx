@@ -7,7 +7,7 @@ export const metadata = {
   title: {
     template: '%s - sai Teja Thalari',
     default:
-      'Spencer Sharp - Software designer, founder, and amateur astronaut',
+      'Sai Teja Thalari - Graduate Student at University of Texas at San Antonio',
   },
   description:
     'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
