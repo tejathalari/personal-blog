@@ -59,7 +59,7 @@ const projects = [
     link: { href: 'https://github.com/tejathalari/infinite-gallery', label: 'github.com' },
     demo_link: {
       "href": "https://tejathalari.github.io/infinite-gallery/",
-      "label": "Live Demo"
+      label: "Live Demo"
     },
     "logo": "logoInfiniteScroller"
   }
