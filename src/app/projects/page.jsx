@@ -8,6 +8,7 @@ import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logofacebook from '@/images/logos/facebook.svg'
+import logoairbnb from '@/images/logos/airbnb.svg'
 
 const projects = [
   {
