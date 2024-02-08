@@ -52,6 +52,17 @@ const projects = [
     link: { href: 'https://github.com/tejathalari/spotify-clone', label: 'github.com' },
     logo: logoOpenShuttle,
   },
+  {
+    name: 'Infinite Image Scroller',
+    description:
+      'The Infinite Image Scroller project was an exciting endeavor that delved into the realm of dynamic content presentation. Through this project, I explored the implementation of infinite scrolling techniques to seamlessly load and display images as the user navigates the interface. This project not only enhanced my proficiency in frontend technologies like JavaScript, HTML, and CSS but also provided insights into optimizing user experience and performance.',
+    link: { href: 'https://github.com/tejathalari/infinite-gallery', label: 'github.com' },
+    demo_link: {
+      "href": "https://tejathalari.github.io/infinite-gallery/",
+      "label": "Live Demo"
+    },
+    "logo": "logoInfiniteScroller"
+  }
 ]
 
 function LinkIcon(props) {
