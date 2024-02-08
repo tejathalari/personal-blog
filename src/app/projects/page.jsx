@@ -57,7 +57,7 @@ const projects = [
     description:
       'The Infinite Image Scroller project was an exciting endeavor that delved into the realm of dynamic content presentation. Through this project, I explored the implementation of infinite scrolling techniques to seamlessly load and display images as the user navigates the interface. This project not only enhanced my proficiency in frontend technologies like JavaScript, HTML, and CSS but also provided insights into optimizing user experience and performance.',
     link: { href: 'https://tejathalari.github.io/infinite-gallery/', label: 'Live Demo' },
-    logo: logoInfiniteScroller,
+    logo: logoOpenShuttle,
   },
 ]
 
