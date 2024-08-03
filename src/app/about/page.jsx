@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 
-
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
@@ -39,8 +38,7 @@ function MailIcon(props) {
 
 export const metadata = {
   title: 'About',
-  description:
-    'Im Sai Teja Thalari. Computer Science Student.',
+  description: 'I’m Sai Teja Thalari, a recent Computer Science graduate from the University of Texas at San Antonio, seeking software engineering opportunities.',
 }
 
 export default function About() {
@@ -51,33 +49,29 @@ export default function About() {
           <div className="max-w-xs px-2.5 lg:max-w-none">
             <Image
               src={portraitImage}
-              alt=""
+              alt="Portrait of Sai Teja Thalari"
               sizes="(min-width: 1024px) 32rem, 20rem"
               className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
             />
           </div>
         </div>
         <div className="lg:order-first lg:row-span-2">
-        <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-        I&lsquo;m
-  <span className="text-red-500">  Sai Teja Thalari.</span>
-  <br />Graduate Student at University of Texas at San Antonio.
-</h1>
+          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+            Hi,I&rsquo;m
+            <span className="text-red-500"> Sai Teja Thalari.</span>
+            <br />Computer Science Graduate from the University of Texas at San Antonio.
+          </h1>
 
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-          <h3 class="text-2xl font-bold">Currently</h3>
-
+            <h3 className="text-2xl font-bold">About Me</h3>
             <p>
-            A passionate individual with a love for web designing and a dream of crafting innovative web applications.
+              I am a Computer Science graduate from the University of Texas at San Antonio, specializing in web development and software engineering. With a strong foundation in both frontend and backend technologies, I am passionate about building innovative and efficient web applications.
             </p>
             <p>
-            As I delved into the world of web designing, the process of creating websites became more than just a hobby—it became a journey of constant learning and exploration. Starting from the challenges of understanding the intricacies of web design, I gradually found joy in crafting different web pages and honing my skills.
+              During my academic career, I have developed and contributed to several projects that demonstrate my skills in designing responsive user interfaces, developing robust back-end systems, and solving complex programming challenges.
             </p>
             <p>
-            Driven by a childhood ambition, I aspire to become a software engineer.
-            </p>
-            <p>
-              
+              I am eager to bring my technical expertise and enthusiasm to a dynamic team, where I can contribute to impactful projects and further my professional growth. I am currently seeking opportunities to apply my skills in a collaborative and forward-thinking environment.
             </p>
           </div>
         </div>
@@ -99,6 +93,17 @@ export default function About() {
             >
               saitejathalari@gmail.com
             </SocialLink>
+            <li className="mt-8">
+  <a
+    href="/CV-SaiTejaThalari.pdf"  // Path is relative to the public directory
+    className="inline-block px-6 py-3 text-sm font-medium text-white bg-teal-500 rounded-lg shadow-md transition-colors duration-300 hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    View My Resume
+  </a>
+</li>
+
           </ul>
         </div>
       </div>
