@@ -78,13 +78,13 @@ export default function About() {
         <div className="lg:pl-20">
           <ul role="list">
             <SocialLink href="https://github.com/tejathalari" icon={GitHubIcon} className="mt-4">
-              Follow on GitHub
+              GitHub
             </SocialLink>
             <SocialLink href="https://www.instagram.com/_sai._.teja/" icon={InstagramIcon} className="mt-4">
-              Follow on Instagram
+               Instagram
             </SocialLink>
             <SocialLink href="https://www.linkedin.com/in/sai-teja-thalari-bb8263236/" icon={LinkedInIcon} className="mt-4">
-              Follow on LinkedIn
+               LinkedIn
             </SocialLink>
             <SocialLink
               href="mailto:saitejathalari@gmail.com"
