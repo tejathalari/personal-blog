@@ -95,7 +95,7 @@ export default function About() {
             </SocialLink>
             <li className="mt-8">
   <a
-    href="/CV-SaiTejaThalari.pdf"  // Path is relative to the public directory
+    href="/saitejathalariresume_fin_m_.pdf"  // Path is relative to the public directory
     className="inline-block px-6 py-3 text-sm font-medium text-white bg-teal-500 rounded-lg shadow-md transition-colors duration-300 hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500"
     target="_blank"
     rel="noopener noreferrer"
