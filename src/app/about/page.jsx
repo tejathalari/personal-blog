@@ -83,7 +83,7 @@ export default function About() {
             <SocialLink href="https://www.instagram.com/_sai._.teja/" icon={InstagramIcon} className="mt-4">
                Instagram
             </SocialLink>
-            <SocialLink href="https://www.linkedin.com/in/sai-teja-thalari-bb8263236/" icon={LinkedInIcon} className="mt-4">
+            <SocialLink href="https://www.linkedin.com/in/sai-teja-bb8263236/" icon={LinkedInIcon} className="mt-4">
                LinkedIn
             </SocialLink>
             <SocialLink
@@ -95,7 +95,7 @@ export default function About() {
             </SocialLink>
             <li className="mt-8">
   <a
-    href="/SaiTejaThalari.pdf"  // Path is relative to the public directory
+    href="/SaiT_resume_fin_org_.pdf"  // Path is relative to the public directory
     className="inline-block px-6 py-3 text-sm font-medium text-white bg-teal-500 rounded-lg shadow-md transition-colors duration-300 hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500"
     target="_blank"
     rel="noopener noreferrer"
